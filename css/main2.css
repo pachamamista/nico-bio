@@ -1,0 +1,43 @@
+.red {
+background: red;
+}
+
+.pink {
+background:pink;
+}
+
+
+.green {
+background:green;
+}
+
+
+.yellow {
+background:yellow;
+}
+
+
+.black {
+background:black;
+}
+
+
+// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { 
+    .red {
+background:orange;
+}
+
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }

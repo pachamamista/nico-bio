@@ -1,0 +1,231 @@
+body {
+    background-color: white;
+    font-family: 'Julius Sans One', sans-serif;
+    font-family: 'Muli', sans-serif;
+    color:azure;
+   font-size: 18px;
+}
+
+.example { 
+  background: linear-gradient(90deg, yellow, orange);
+  box-shadow:
+    3px 3px 8px 0px #5c055c;
+  padding: 0em 1em;
+  border-radius: 10px;
+  border-style:none;
+  margin-left: 15px;
+  font: 18px sans-serif;
+  line-height: 2;
+}
+
+img{
+    max-width: 100%;
+}
+
+.smallimg
+{
+    width: 50px;
+}
+
+.biophoto{
+    
+    width: 250px;
+}
+
+.card-body { 
+    background-color:white;
+}
+
+
+align-right{
+    text-align: left; 
+}
+
+ table, th, td {
+    border: 0px solid black;
+    padding: 10px;
+    text-align: left;
+}
+h1 {
+    font-family: 'Julius Sans One', sans-serif;
+    align-content: center;
+}
+h2 {
+    font-family: 'Julius Sans One', sans-serif;
+}
+h3 {
+    font-family: 'Julius Sans One', sans-serif; 
+}
+h4 {
+    font-family: 'Julius Sans One', sans-serif;
+}
+h5 {
+    font-family: 'Julius Sans One', sans-serif;
+    align-content: center;
+}
+h6 {
+    font-family: 'Julius Sans One', sans-serif;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+
+
+#grad1 {
+    height: 200px;
+    background: purple; /* For browsers that do not support gradients */    
+    background: -webkit-linear-gradient(left top, #f1b22f, #ffbb2c); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #f1b22f, #ffbb2c); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #f1b22f, #ffbb2c); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #f1b22f, #ffbb2c); /* Standard syntax (must be last) */
+}
+
+.container {
+    width: 992px;
+}
+.jumbotron { 
+/*  background: linear-gradient(90deg, purple, blue);*/
+    background: -webkit-linear-gradient(left top, #f1b22f, #ffbb2c); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #f1b22f, #ffbb2c); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #f1b22f, #ffbb2c); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #f1b22f, #ffbb2c); /* Standard syntax (must be last) */
+    box-shadow:
+    3px 3px 8px 0px #aaaaaa ;
+  padding: 2em 2em 2em 2em;
+  border-radius: 10px;
+  border-style:none;
+  margin: 15px;
+ font-family: 'Julius Sans One', sans-serif;
+font-family: 'Muli', sans-serif;
+    font-size: 16px;
+  line-height: 1.5;
+}
+
+.bump-10{
+    margin-top: 10px;
+}
+
+.lead{
+    color: white;
+    padding-bottom:20px;
+}
+
+.my-4{
+    color: white;
+    
+}
+link {
+    color:aliceblue;
+}
+
+a {
+    color:aliceblue; 
+    text-decoration:none;
+}
+
+/* mouse over link */
+a:hover {
+   color:#ffffff;
+    text-decoration:none;
+}
+.btn-primary{
+    background-color: blueviolet;
+    border-color:  blueviolet;
+}
+
+.btn-secondary {
+    border-color: none;
+}
+.card-body{
+    color:#ffc64f;
+}
+
+p { 
+    color:white;
+}
+
+.figure-caption{
+    color: white;
+}
+
+
+.d-block {
+ display: block;
+  vertical-align: middle; 
+    margin:auto;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+.pink {
+    background: pink;
+}
+
+.yellow {
+    background: yellow;
+}
+
+.violet {
+    background: violet;
+}
+
+.magenta {
+    background: magenta;
+}
+
+.hightlight{
+    color:black;
+}
+
+
+/* .heading {
+    font-size: 22px;
+    margin-top: 20px;
+    background: yellow;
+    padding: 5px;
+}
+*/
+
+
+@media (max-width: 575px )
+    {
+    heading {
+        font-size: 24px;
+        color:blueviolet;}
+    }
+
+
+/* Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575px) { ... }
+
+// Small devices (landscape phones, less than 768px) 
+@media (max-width: 767px) { ... }
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991px) { ... }
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199px) { ... }
+
+// Extra large devices (large desktops)
+// No media query since the extra-large breakpoint has no upper bound on its width
